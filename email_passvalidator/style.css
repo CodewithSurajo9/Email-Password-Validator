@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #087a83 0%, #9b20d4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255,255,255,0.7);
+    padding: 32px 28px;
+    border-radius: 18px;
+    width: 340px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #0c131f;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+h2:hover {
+    color: #2330df;
+    text-shadow: 0 2px 8px rgba(24,146,122,0.15);
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    color: #222;
+}
+
+input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 5px;
+    border: 1.5px solid #bfc9d1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f7fafc;
+    transition: border 0.3s, box-shadow 0.3s, background 0.3s;
+    box-shadow: 0 2px 8px rgba(81,133,229,0.04);
+}
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    background: #e6f9f5;
+}
+
+.error {
+    font-size: 0.95em;
+    height: 18px;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+.error[aria-live="polite"] {
+    min-height: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #d481f8 0%, #5f0885 100%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.2s, opacity 0.3s;
+    box-shadow: 0 2px 8px rgba(81,133,229,0.08);
+}
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+button:hover:not(:disabled), button:focus:not(:disabled) {
+    background: linear-gradient(90deg, #18927a 0%, #092848 100%);
+    transform: translateY(-2px) scale(1.03);
+    outline: none;
+}
+
+
+input[type="password"] {
+    padding-right: 36px;
+}
+span[role="button"] {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #007BFF;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+span[role="button"]:hover, span[role="button"]:focus {
+    color: #18927a;
+    outline: none;
+}
+
+#strengthMeter {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+    background: #eee;
+    font-size: 0.9em;
+    text-align: right;
+    color: #222;
+    transition: background 0.3s, color 0.3s;
+    margin-bottom: 18px; /* Add spacing below strength meter */
+}
+#strengthMeterText {
+    display: block;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: right;
+    color: #222;
+    font-weight: 500;
+    transition: color 0.3s;
+    position: relative;
+    z-index: 2;
+    background: rgba(255,255,255,0.7);
+    padding-right: 6px;
+}
+#strengthBar {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+}
+/* #resultMessage {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 24px; 
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s, transform 0.5s, color 0.3s;
+}
+#resultMessage.show {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+.requirements li {
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    border-left: 5px solid #eee;
+    transition: color 0.4s, border-color 0.4s, background 0.4s, transform 0.3s;
+    background: none;
+    position: relative;
+    font-size: 1.05em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.85;
+}
+.requirements li:last-child {
+    margin-bottom: 0;
+}
+.requirements {
+    margin-bottom: 12px;
+}
+
+.form-group, .container, input, button, .error, #strengthMeter {
+    transition: all 0.3s;
+}
+
+
