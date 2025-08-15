@@ -1,19 +1,26 @@
-📧 Email & Password Validator
+#📧 Email & Password Validator
+
 A simple, stylish, and responsive web application that validates Email and Password inputs in real-time using HTML, CSS, and JavaScript.
 It provides instant feedback, password strength indication, and an eye toggle to show/hide passwords — all with a clean UI.
 
-🚀 Features
-1. Real-Time Validation – Email and password are checked as the user types.
-2. Password Strength Meter – Displays strength color indicators based on complexity.
-3. Show/Hide Password – Eye toggle icon to switch visibility.
-4. Responsive Glassmorphism UI – Smooth animations, gradient backgrounds, and hover effects.
-5. Form Validation – Submit button is enabled only if both fields are valid.
-6. Accessibility – ARIA attributes and keyboard-friendly controls
+---
 
-🛠️ Technologies Used
-1. HTML5 – Structure of the app.
-2. CSS3 – Glassmorphism styles, transitions, and layout.
-3. JavaScript (Vanilla JS) – Validation logic, password strength checking, dynamic UI updates
+##🚀 Features
+
+- "Real-Time Validation"  — Email and password are checked as the user types.
+- Password Strength Meter  — Displays strength color indicators based on complexity.
+- Show/Hide Password  — Eye toggle icon to switch visibility.
+- esponsive Glassmorphism UI  — Smooth animations, gradient backgrounds, and hover effects.
+- Form Validation  — Submit button is enabled only if both fields are valid.
+- Accessibility  — ARIA attributes and keyboard-friendly controls
+  
+---
+
+##🛠️ Technologies Used
+
+- HTML5 – Structure of the app.
+- CSS3 – Glassmorphism styles, transitions, and layout.
+- JavaScript (Vanilla JS) – Validation logic, password strength checking, dynamic UI updates
 
 📜 Validation Rules
 ✅ Email
