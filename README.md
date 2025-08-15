@@ -7,31 +7,34 @@ It provides instant feedback, password strength indication, and an eye toggle to
 
 ##🚀 Features
 
-- "Real-Time Validation"  — Email and password are checked as the user types.
-- Password Strength Meter  — Displays strength color indicators based on complexity.
-- Show/Hide Password  — Eye toggle icon to switch visibility.
-- esponsive Glassmorphism UI  — Smooth animations, gradient backgrounds, and hover effects.
-- Form Validation  — Submit button is enabled only if both fields are valid.
-- Accessibility  — ARIA attributes and keyboard-friendly controls
+- **Real-Time Validation**  — Email and password are checked as the user types.
+- **Password Strength Meter**  — Displays strength color indicators based on complexity.
+- **Show/Hide Password**  — Eye toggle icon to switch visibility.
+- **esponsive Glassmorphism UI**  — Smooth animations, gradient backgrounds, and hover effects.
+- **Form Validation**  — Submit button is enabled only if both fields are valid.
+- **Accessibility**  — ARIA attributes and keyboard-friendly controls
   
 ---
 
 ##🛠️ Technologies Used
 
-- HTML5 – Structure of the app.
-- CSS3 – Glassmorphism styles, transitions, and layout.
-- JavaScript (Vanilla JS) – Validation logic, password strength checking, dynamic UI updates
+- **HTML5**  — Structure of the app.
+- **CSS3**  — Glassmorphism styles, transitions, and layout.
+- **JavaScript (Vanilla JS)**  — Validation logic, password strength checking, dynamic UI updates
+  
+---
 
-📜 Validation Rules
+##📜 Validation Rules
+
 ✅ Email
-1. Must match a standard email format (username@domain.extension).
+- Must match a standard email format (username@domain.extension).
 
 ✅ Password
-1. At least 8 characters long.
-2. At least 1 uppercase letter.
-3. At least 1 lowercase letter.
-4. At least 1 number.
-5. At least 1 special character (@$!%*?&).
+- At least 8 characters long.
+- At least 1 uppercase letter.
+- At least 1 lowercase letter.
+- t least 1 number.
+- At least 1 special character (@$!%*?&).
 
 📂 Project Structure
 📁 Email-Password-Validator
