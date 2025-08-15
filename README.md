@@ -17,14 +17,14 @@ It provides instant feedback, password strength indication, and an eye toggle to
 
 📜 Validation Rules
 ✅ Email
-~ Must match a standard email format (username@domain.extension).
+1. Must match a standard email format (username@domain.extension).
 
 ✅ Password
-. At least 8 characters long.
-. At least 1 uppercase letter.
-. At least 1 lowercase letter.
-. At least 1 number.
-. At least 1 special character (@$!%*?&).
+1. At least 8 characters long.
+2. At least 1 uppercase letter.
+3. At least 1 lowercase letter.
+4. At least 1 number.
+5. At least 1 special character (@$!%*?&).
 
 📂 Project Structure
 📁 Email-Password-Validator
