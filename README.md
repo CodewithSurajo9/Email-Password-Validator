@@ -17,7 +17,7 @@ It provides instant feedback, password strength indication, and an eye toggle to
 
 📜 Validation Rules
 ✅ Email
-. Must match a standard email format (username@domain.extension).
+~ Must match a standard email format (username@domain.extension).
 
 ✅ Password
 . At least 8 characters long.
