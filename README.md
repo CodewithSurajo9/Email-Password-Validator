@@ -38,7 +38,6 @@ It provides instant feedback, password strength indication, and an eye toggle to
 
 ## 📂 Project Structure
 
-## 📁 Email-Password-Validator
 - │── index.html      # Main HTML file
 - │── style.css       # All styling
 - │── script.js       # Form validation & logic
